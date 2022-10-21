@@ -10,9 +10,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "14980683"))
 API_HASH = getenv("API_HASH","5bc2e9cd58092119e741c1f2b545c1bf")
 
-BOT_TOKEN = getenv("BOT_TOKEN","5372584050:AAFLZtWstTJds_b4qCyNAHaYvbiVKQ_-BG8")
+BOT_TOKEN = getenv("BOT_TOKEN","5752730372:AAGFGEH9Cc9fJRbUhron4btB6MxiaDR2Jfg")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://ath:atharva@cluster0.osln3an.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://levi:levi@cluster0.be2dlnc.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001680869265"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zero Two Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙉𝙖𝙢𝙞 ✘ 𝙈𝙪𝙨𝙞𝙘")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5667156680").split())
