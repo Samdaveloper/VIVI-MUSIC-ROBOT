@@ -58,7 +58,7 @@ async def init():
     await VIV.start()
     try:
         await VIV.stream_call(
-            "https://telegra.ph/file/1fb934326ef84ffd7f322.jpg"
+            "https://telegra.ph/file/03f15a4e3147e84ea3bb6.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("VIVI").error(
