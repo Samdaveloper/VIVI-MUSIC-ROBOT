@@ -13,7 +13,7 @@ from config import (
     OWNER_ID as owner_id,
 )
 
-SUPPORT = "kakashi_bots_support"
+SUPPORT = "WoFBotsSupport"
 
 def content(msg: Message) -> [None, str]:
     text_to_return = msg.text
@@ -42,10 +42,10 @@ async def bug(_, msg: Message):
     datetimes_fmt = "%d-%m-%Y"
     datetimes = datetime.utcnow().strftime(datetimes_fmt)
 
-    thumb = "https://telegra.ph/file/56d1760224589ee370186.jpg"
+    thumb = "https://telegra.ph/file/2c593960e19154d2960d1.jpg"
     
     bug_report = f"""
-**#ʙᴜɢ :** **@SIXTH_H0KAGE**
+**#ʙᴜɢ :** **@HSSLevii**
 
 **ʀᴇᴩᴏʀᴛᴇᴅ ʙʏ :** **{mention}**
 **ᴜsᴇʀ ɪᴅ :** **{user_id}**
