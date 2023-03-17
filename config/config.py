@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = ipw1X5H9pWbe_RuvvfoAXHOArXxEf3EhGC0AOwyvMf850CM5XVy6kznNJnQ8hUVmnjSPMbi4GBXc9dnF8wuBylyQoHT3ne3QzKc_0Ya67y55r5z4LLVGg8MUy0zlqZ7PXfDzWHohbbh5xMLkdxulsRn6BtteTNm5wA")
+STRING1 = getenv("STRING_SESSION","session daal pyrogram ka")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
