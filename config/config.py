@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "13715737"))
-API_HASH = getenv("API_HASH","9b5ff18e133fed80f0f6cd7bf30cffdd")
+API_ID = int(getenv("API_ID", "api I'd daal"))
+API_HASH = getenv("API_HASH","hash daal")
 
-BOT_TOKEN = getenv("BOT_TOKEN","5752730372:AAGFGEH9Cc9fJRbUhron4btB6MxiaDR2Jfg")
+BOT_TOKEN = getenv("BOT_TOKEN","token daal")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://levi:levi@cluster0.be2dlnc.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongo db url daal")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION","BQBis637L7keoSsRkaLxmQJBzfyzutlkbjsMxBSqITIlR1rUPX4gp2q0QWjHIex5TgeUG-2mLr1vJnaej646Qdszo_z8p8WBOiV9Q_EqGBwDaNmsxHc970E1CQsR1e56Ti95hg93Yog1p4vMr51jBInlx1WmYxdLFC4X-2EVlzKEAe98BmwaXkhXWonVXipw1X5H9pWbe_RuvvfoAXHOArXxEf3EhGC0AOwyvMf850CM5XVy6kznNJnQ8hUVmnjSPMbi4GBXc9dnF8wuBylyQoHT3ne3QzKc_0Ya67y55r5z4LLVGg8MUy0zlqZ7PXfDzWHohbbh5xMLkdxulsRn6BtteTNm5wA")
+STRING1 = ipw1X5H9pWbe_RuvvfoAXHOArXxEf3EhGC0AOwyvMf850CM5XVy6kznNJnQ8hUVmnjSPMbi4GBXc9dnF8wuBylyQoHT3ne3QzKc_0Ya67y55r5z4LLVGg8MUy0zlqZ7PXfDzWHohbbh5xMLkdxulsRn6BtteTNm5wA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
