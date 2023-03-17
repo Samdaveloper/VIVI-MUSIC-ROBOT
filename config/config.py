@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "api I'd daal"))
-API_HASH = getenv("API_HASH","hash daal")
+API_ID = int(getenv("API_ID", "28515844"))
+API_HASH = getenv("API_HASH","806ae0037f81b4db8a2df8e1c206d34b")
 
-BOT_TOKEN = getenv("BOT_TOKEN","token daal")
+BOT_TOKEN = getenv("BOT_TOKEN","6010000178:AAHYZE1ztLsnclgoE0eYuOHE51x6Nc_LWVY")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongo db url daal")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -27,7 +27,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001680869265"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙉𝙖𝙢𝙞 ✘ 𝙈𝙪𝙨𝙞𝙘")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5667156680").split())
+    map(int, getenv("OWNER_ID", "5348193047").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
