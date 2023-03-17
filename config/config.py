@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001680869265"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙉𝙖𝙢𝙞 ✘ 𝙈𝙪𝙨𝙞𝙘")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mikasa ✘ Music")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5348193047").split())
@@ -103,11 +103,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/2f279b1d80b4364219caf.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/91d562428b85b41f7d470.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b7ba34b61fc2e89155108.jpg",
+    "https://te.legra.ph/file/534698634af420ffca325.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
