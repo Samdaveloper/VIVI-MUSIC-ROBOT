@@ -1,2 +1,2 @@
-worker: python3 -m VIVI
-worker: bash VIVI
+workers: python3 -m VIVI
+worker: bash start
