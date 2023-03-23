@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "28515844"))
-API_HASH = getenv("API_HASH","806ae0037f81b4db8a2df8e1c206d34b")
+API_ID = int(getenv("API_ID", "22875242"))
+API_HASH = getenv("API_HASH","32eddce639c6fd7fe6a40db879dcb91c")
 
-BOT_TOKEN = getenv("BOT_TOKEN","6112793967:AAHemMqQj1rZCF6_HTKM8OZo-eGJBHXQj_M")
+BOT_TOKEN = getenv("BOT_TOKEN","6134730333:AAGDm9L9SFcs8fDJSvxo--HTOqHCteHySlg")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://eren:eren@cluster0.aor5rcv.mongodb.net/?retryWrites=true&w=majority")
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001680869265"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001820069021"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Mikasa ✘ Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🆃ҽαɱ 🅲σԃҽɾ 🅼υʂιƈ")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5348193047").split())
+    map(int, getenv("OWNER_ID", "6063904500").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com")
+GITHUB_REPO = getenv("GITHUB_REPO", "")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION","BQA6d_sn7kvYAXWTixsIbnnedsgyv4XnCkS3-fqJd47hMxdUrdUsFbSyON0RK1Taq29fcKFvrRBFZWvdAX382IH2dZNZfwirkZ2k3S9VH2w4wqe_3XXrAo6BYeL1lWTq_rhsRcBkcsxY2XwxSW_mfRA0a_m3JHftOoBhUAyeS9KFfBPnoNV3JXsJe25oR4a2vMTDWbaqR-fVUNKJC3Op_44K_KjSG511IQgTbf0H0hCRdx6DJ4hxUDpaL-Ly-MMphVN9-IFImsWX9TNYDx4efbqo03nriRQ1QiFQhmj5tfTj7PHFhIB8aIgVWOngW7krgcHIHD6CDe9SL2DBN9AAwMU_AAAAAUjyMuYA")
+STRING1 = getenv("STRING_SESSION","BQA3zAJz8wcriAHneeAaEtph3Wtbd4qQeBkilzu3sdVGrs4bzyFKomHHS2fHL5pzQBCNov8EVwL34Hz47MViJvDmOK4iqyUntx5ggB-quVSJgN8kyiH4MnIJxgqcanga55zMU6Q8nPEMW6x5bE4x_llURYMgEffLcbvNm3OcdYCgmJ2nko8JEFYPmjCpLrYe_eiS3D_vBG-BF8_s1pxgALY54QxkR8SnET4wab7BSk0Vs1p5dlDneKul0MjpWMEbdObp-5sUwvTpNYjHGa3gP5Mu-A6KZhp1yMlPh65UiPs6yBjI48uZMkVCqvFXnLf3DaoEAtpe5dqhhxYWBHvRNvEpAAAAAWlv1vQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
